@@ -1,7 +1,7 @@
 /**
   header JSX
  */
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
 
 const Header = defineComponent({
   props: {
@@ -13,9 +13,10 @@ const Header = defineComponent({
   setup(props) {
     return () => (
       <div>
+        <h1>header</h1>
         {props.text}
       </div>
     )
   }
-});
-export default Header;
+})
+export default Header
