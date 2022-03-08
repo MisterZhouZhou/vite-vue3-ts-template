@@ -5,7 +5,6 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import styleImport, { VantResolve } from 'vite-plugin-style-import'
 
 const pathResolve = (dir: string) => resolve(__dirname, dir)
-console.log('$---', pathResolve('src'))
 
 // https://vitejs.dev/config/
 export default defineConfig({
